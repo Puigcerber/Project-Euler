@@ -15,7 +15,7 @@ echo $sum."\r\n";
 /*
  * Optimized version
  */
-function  SumDivisibleBy($n)
+function SumDivisibleBy($n)
 {
     $p = intval(999 / $n);
     return intval(($n * ($p * ($p + 1))) / 2);
